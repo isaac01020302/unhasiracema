@@ -3,6 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 <title>Unhas Iracema</title>
 
 <style>
@@ -10,7 +11,7 @@
 body{
 font-family:Arial;
 margin:0;
-background:linear-gradient(135deg,#1e3a8a,#9333ea,#ec4899);
+background:linear-gradient(135deg,#7c3aed,#ec4899,#f43f5e);
 background-size:400% 400%;
 animation:fundo 10s infinite alternate;
 color:white;
@@ -23,7 +24,7 @@ text-align:center;
 }
 
 header{
-padding:25px;
+padding:30px;
 font-size:32px;
 font-weight:bold;
 }
@@ -39,7 +40,7 @@ padding:20px;
 .card{
 background:white;
 color:#111;
-width:220px;
+width:230px;
 border-radius:15px;
 box-shadow:0 10px 25px rgba(0,0,0,0.3);
 padding:15px;
@@ -47,18 +48,18 @@ transition:0.3s;
 }
 
 .card:hover{
-transform:translateY(-5px);
+transform:translateY(-6px);
 }
 
 .card img{
 width:100%;
-height:120px;
+height:140px;
 object-fit:cover;
 border-radius:10px;
 }
 
 .card h3{
-margin:10px 0 5px;
+margin:10px 0;
 }
 
 .preco{
@@ -72,10 +73,25 @@ display:inline-block;
 margin-top:10px;
 background:#25D366;
 color:white;
-padding:8px 14px;
-border-radius:8px;
+padding:10px 15px;
+border-radius:10px;
 text-decoration:none;
 font-weight:bold;
+}
+
+.avaliacoes{
+margin-top:40px;
+padding:20px;
+}
+
+.avaliacao{
+background:white;
+color:#111;
+margin:10px auto;
+width:260px;
+padding:15px;
+border-radius:12px;
+box-shadow:0 8px 20px rgba(0,0,0,0.2);
 }
 
 .local{
@@ -83,13 +99,27 @@ margin-top:30px;
 font-size:18px;
 }
 
+.whatsapp{
+position:fixed;
+bottom:20px;
+right:20px;
+background:#25D366;
+color:white;
+font-size:20px;
+padding:15px 18px;
+border-radius:50%;
+text-decoration:none;
+box-shadow:0 5px 20px rgba(0,0,0,0.3);
+}
+
 footer{
-margin-top:20px;
+margin-top:30px;
 padding:15px;
 font-size:14px;
 }
 
 </style>
+
 </head>
 
 <body>
@@ -104,21 +134,45 @@ font-size:14px;
 <img src="https://images.unsplash.com/photo-1604654894610-df63bc536371">
 <h3>Unha</h3>
 <div class="preco">R$30</div>
-<a class="btn" href="https://wa.me/5585999010932?text=Olá quero agendar Unha">Agendar</a>
+<a class="btn" href="https://wa.me/5585999010932">Agendar</a>
 </div>
 
 <div class="card">
 <img src="https://images.unsplash.com/photo-1596462502278-27bfdc403348">
 <h3>Pé e Mão</h3>
 <div class="preco">R$50</div>
-<a class="btn" href="https://wa.me/5585999010932?text=Olá quero agendar Pé e Mão">Agendar</a>
+<a class="btn" href="https://wa.me/5585999010932">Agendar</a>
 </div>
 
 <div class="card">
 <img src="https://images.unsplash.com/photo-1588776814546-1ffcf47267a5">
 <h3>Depilação</h3>
 <div class="preco">R$100</div>
-<a class="btn" href="https://wa.me/5585999010932?text=Olá quero agendar Depilação">Agendar</a>
+<a class="btn" href="https://wa.me/5585999010932">Agendar</a>
+</div>
+
+</div>
+
+<div class="avaliacoes">
+
+<h2>⭐ Avaliações de Clientes</h2>
+
+<div class="avaliacao">
+⭐⭐⭐⭐⭐<br>
+"Atendimento perfeito e unhas lindas!"<br>
+— Cliente Anônima
+</div>
+
+<div class="avaliacao">
+⭐⭐⭐⭐⭐<br>
+"Melhor lugar para fazer pé e mão!"<br>
+— Cliente Anônima
+</div>
+
+<div class="avaliacao">
+⭐⭐⭐⭐⭐<br>
+"Super caprichosa, recomendo muito!"<br>
+— Cliente Anônima
 </div>
 
 </div>
@@ -127,6 +181,10 @@ font-size:14px;
 📍 Avenida Augusto dos Anjos 220<br>
 Fortaleza - CE
 </div>
+
+<a class="whatsapp" href="https://wa.me/5585999010932">
+💬
+</a>
 
 <footer>
 WhatsApp: 85 99901-0932
